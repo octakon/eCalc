@@ -1,0 +1,12 @@
+$btn-size: 85px;
+.button {
+  @extend .shadow;
+  width: $btn-size;
+  height: $btn-size;
+  color: $color-btn;
+  background: $bg-color-btn;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 4px 2px;
+}

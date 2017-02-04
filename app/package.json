@@ -1,0 +1,12 @@
+{
+  "name": "eCalc",
+  "version": "0.1.0",
+  "main": "main.js",
+  "scripts": {
+    "build:css" : "node-sass --include-path scss scss/main.scss css/main.css",
+    "watch:css" : "npm run build:css -- -w"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.0"
+  }
+}
