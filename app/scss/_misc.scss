@@ -1,5 +1,12 @@
-body {
+html, body {
   background: $bg-color;
+  margin: 0px;
+  padding: 0px;
+}
+
+div {
+  width: 100%;
+  display: flex;
 }
 
 .shadow {
