@@ -23,6 +23,11 @@ div {
     margin-left: 6px; }
   .button:last-child {
     margin-right: 6px; }
+  .button:hover, .button:active {
+    cursor: pointer;
+    background: #4d4dff; }
+  .button:active {
+    background: #0000e6; }
 
 .display-container {
   margin: 0 5px;

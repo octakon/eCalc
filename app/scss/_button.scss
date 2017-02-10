@@ -1,19 +1,27 @@
 $btn-width: 90px;
 $btn-heigh: 60px;
 .button {
-  @extend .shadow;
-  width: $btn-width;
-  height: $btn-heigh;
-  color: $color-btn;
-  background: $bg-color-btn;
-  border: none;
-  font-size: 1.6rem;
-  font-weight: bold;
-  margin: 4px 3px;
-  &:first-child {
-    margin-left: 6px;
-  }
-  &:last-child {
-    margin-right: 6px;
-  }
+    @extend .shadow;
+    width: $btn-width;
+    height: $btn-heigh;
+    color: $color-btn;
+    background: $bg-color-btn;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 4px 3px;
+    &:first-child {
+        margin-left: 6px;
+    }
+    &:last-child {
+        margin-right: 6px;
+    }
+    &:hover,
+    &:active {
+        cursor: pointer;
+        background: lighten($bg-color-btn, 5);
+    }
+    &:active {
+        background: darken($bg-color-btn, 15);
+    }
 }
